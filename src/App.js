@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Header />
       <Banner />
-      <RowPost title='Netflix Originals' className='max-h-[250px] mr-[10px]' url={originals}/>
-      <RowPost title='Action' className='max-h-[150px] mr-[10px]' url={action}/>
+      <RowPost title='Netflix Originals' className='max-h-[250px] mr-[10px] cursor-pointer hover:scale-110' url={originals}/>
+      <RowPost title='Action' className='max-h-[150px] mr-[10px] cursor-pointer hover:scale-110' url={action}/>
       <Home />
       <Footer />
     </div>
