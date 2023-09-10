@@ -7,7 +7,7 @@ import bell from "../../assets/images/bell.svg";
 function Header() {
   return (
     <>
-      <nav className="w-full flex items-center justify-between p-5 absolute z-[100] h-[30px] bg-black text-white">
+      <nav className="w-full flex items-center justify-between p-5 absolute z-[100] h-[60px] bg-black text-white">
         <ul>
           <li>
             <img src={netflix_logo} className="w-28 top-0" alt="logo" />
