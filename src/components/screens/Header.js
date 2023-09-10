@@ -21,16 +21,16 @@ function Header() {
         </ul>
         <div className="flex items-center gap-5">
           <div>
-            <img src={search} className="w-5" />
+            <img src={search} className="w-5" alt="search icon"/>
           </div>
           <div>
-            <img src={bell} className="w-5" />
+            <img src={bell} className="w-5"  alt="bell icon"/>
           </div>
           <div>
             <img
               src={profile}
               className="w-8 rounded-sm "
-              alt="profile picture"
+              alt="profile"
             />
           </div>
         </div>

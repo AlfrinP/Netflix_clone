@@ -5,7 +5,7 @@ import YouTube from "react-youtube";
 function RowPost(props) {
   const [poster, setPoster] = useState([]);
   const [Yturl, setYturl] = useState("");
-  useEffect(() => {
+  useEffect((props) => {
     axios
       .get(props.url)
       .then(function (response) {
@@ -29,7 +29,7 @@ function RowPost(props) {
     .then(function (response) {
         // handle success
         console.log(response.data.results[0].key);
-        if (response.data.results != 0 ){
+        if (response.data.results !== 0 ){
           setYturl(response.data.results[0].key);
         }
         else{
