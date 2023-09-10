@@ -1,19 +1,41 @@
 import React from "react";
+import netflix_logo from "../../assets/images/Netflix_Logo_RGB.png";
+import profile from "../../assets/images/Netflix-avatar.png";
+import search from "../../assets/images/search.svg";
+import bell from "../../assets/images/bell.svg";
 
 function Header() {
   return (
-    <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
-      <div className="max-w-5xl mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          <span className="text-2xl text-gray-900 font-semibold">Logo</span>
-          <div className="flex space-x-4 text-gray-900">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+    <>
+      <nav className="w-full flex items-center justify-between p-5 absolute z-[100] h-[30px] bg-black text-white">
+        <ul>
+          <li>
+            <img src={netflix_logo} className="w-28 top-0" alt="logo" />
+          </li>
+          <li></li>
+        </ul>
+        <ul className="flex items-center gap-5 justify-center text-lg">
+          <li>Home</li>
+          <li>Movies</li>
+          <li>TV Shows</li>
+        </ul>
+        <div className="flex items-center gap-5">
+          <div>
+            <img src={search} className="w-5" />
+          </div>
+          <div>
+            <img src={bell} className="w-5" />
+          </div>
+          <div>
+            <img
+              src={profile}
+              className="w-8 rounded-sm "
+              alt="profile picture"
+            />
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </>
   );
 }
 
