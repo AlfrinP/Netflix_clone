@@ -17,3 +17,5 @@ This project is an exciting work-in-progress, and I have some compelling plans f
 - **Recommendation Engine**: To take user experience to the next level, I'm working on an intelligent recommendation system that suggests movies based on a user's activity and preferences.
 
 This project has been an invaluable learning experience for me. It's helped me grasp the concepts of working with APIs, and I'm excited about the future developments. Stay tuned for more exciting updates! 🚀
+
+You can access the hosted project [here](https://64fe1270ef581452f8a46cf2--frabjous-shortbread-befd71.netlify.app/).
